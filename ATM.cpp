@@ -92,7 +92,6 @@ void ATM::RunSystem() {
 					cin >> transAmt;
 					if (transAmt > 0)
 					{
-
 						currentUser->MakeDepoist(transAmt);
 					}
 					else
@@ -105,7 +104,7 @@ void ATM::RunSystem() {
 					cin >> transAmt;
 					if (transAmt > 0)
 					{
-						currentUser->MakeWithdrawl(transAmt);
+                     currentUser->MakeWithdrawl(transAmt);
 					}
 					else
 					{

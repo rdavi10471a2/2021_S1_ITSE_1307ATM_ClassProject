@@ -3,6 +3,7 @@
 #include <iomanip>
 using namespace std;
 
+//global transaction number (since we don't have a built in date type this will suffice for identifying transactions)
 int Transaction::GlobalTransaction = 1000000;
 
 Transaction  Transaction::CreateDeposit(double Amount,double endingBalance) 
